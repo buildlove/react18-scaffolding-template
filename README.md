@@ -1,27 +1,38 @@
-# 环境
+## 环境
 
 react18 + antd + less
 
-# 运行
+## 运行
 
+```
 pnpm install  
 pnpm run start
+```
 
-# 如何创建的脚手架
+## 如何创建的脚手架
 
-## react官网创建基本模板
+### react官网创建基本模板
+```
 yarn create react-app my-app  
+```
 
-## 进入项目安装插件
+### 进入项目安装插件
+```
 cd my-app && yarn  
+```
 
-## 安装启动插件改造框架
+### 安装启动插件改造框架
+```
 yarn add react-app-rewired --save-dev  
+```
 
-## webpack常用插件
+### webpack常用插件
+
+```
 yarn add customize-cra --save-dev  
+```
 
-## 修改package.json的scripts为  
+### 修改package.json的scripts为  
 
 ```
   "scripts": {
@@ -32,7 +43,7 @@ yarn add customize-cra --save-dev
   }
 ```
 
-## 使用 react-app-rewired 启动时可通过 config-overrides.js 覆盖webpack配置
+### 使用 react-app-rewired 启动时可通过 config-overrides.js 覆盖webpack配置
 
 > 具体的按照自己的喜好来配置
 
@@ -47,6 +58,9 @@ module.exports = {
 
 ```
 
-## 启动项目
+### 启动项目
+
+```
 npm run start
+```
 
