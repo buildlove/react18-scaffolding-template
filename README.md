@@ -21,7 +21,7 @@ yarn create react-app my-app
 cd my-app && yarn  
 ```
 
-### 安装启动插件改造框架
+### 安装启动插件
 ```
 yarn add react-app-rewired --save-dev  
 ```
