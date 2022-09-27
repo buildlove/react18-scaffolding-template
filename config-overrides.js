@@ -1,5 +1,5 @@
 const { override, addWebpackAlias, adjustWorkbox, addDecoratorsLegacy } = require('customize-cra');
-const configOverrides = require('./webpack-config');
+const configOverrides = require('./webpack-config2');
 const path = require('path');
 
 const { 
